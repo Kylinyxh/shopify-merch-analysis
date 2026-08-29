@@ -1,0 +1,11 @@
+file_type,required,minimum_fields,purpose
+Monthly SKU sales,yes,"Month; SKU; Product Title; Net Quantity; Gross Sales; Discounts; Net Sales","trend, seasonality, category and SKU performance"
+Product master,yes,"Product ID; Product Title; SKU; Product Type; Product Category; Price; Image URL; Status","classification and price bands"
+Lifecycle export,yes,"Product ID; Product Title; SKU; Created At; Published At; Status","lifecycle"
+SKU profit/cost model,yes,"SKU; Unit Cost or Model Margin","profit and contribution"
+Inventory by warehouse,yes,"SKU; Warehouse; Available Inventory","inventory risk and forward coverage"
+Goods number mapping,recommended,"Goods No; SKU","final master key"
+Ad spend,optional,"SKU or Product; Spend","real contribution profit"
+Shipping cost,optional,"SKU or Order; Shipping Cost","real contribution profit"
+Payment fee,optional,"Order or Product allocation; Fee","real contribution profit"
+Affiliate commission,optional,"Order or Product allocation; Commission","real contribution profit"
